@@ -1,0 +1,239 @@
+/* .main-content {
+    width: 100%;
+    height: 1100px;
+} */
+
+.main-content {
+    display: block;
+    min-height: 300px;
+}
+
+.hero-img {
+    
+    height: 600px;
+}
+
+#shopify-section-1 {
+    width: 87%;
+    display: flex;
+    justify-content: space-between;
+    margin: 20px auto;
+    padding: 20px 0 20px 0;
+}
+
+.shopify-section_item {
+    float: left;
+    position: relative;
+    padding-left: 22px;
+    width: 100%;
+    min-height: 1px;
+}
+
+.index-section {
+    margin: 22px 0!important;
+}
+
+.index-section--hero {
+    position: relative
+}
+
+
+.hero__link {
+    position: absolute;
+    display: block;
+    left: 50%;
+    transform: translateX(-50%);
+    width: 100%;
+    top: 0;
+    height: 100%;
+  
+}
+
+.btn {
+    position: relative;
+    overflow: hidden;
+    transition: background.2s ease 0s;
+    background: #000000 !important;
+    color: #fff;
+    border: none;
+    border-radius: 0!important;
+    text-decoration: none;
+    width: 103px;
+    height: 18px;
+    padding: 11px 20px;
+   
+}
+.hero__link .btn {
+    margin: 4px 3px 2px 0;
+}
+
+/* shopify-section */
+.grid-overflow-section {
+    display: flex;
+    position: relative;
+    padding: 0;
+    margin-left: 0;
+    opacity: 1;
+    width: 3204px;
+    transform: translate3d(0px, 0px, 0px);
+
+}
+.grid-overflow-section img {
+    width: 276px;
+    
+}
+
+#card-desc {
+    text-align: center;
+    position: relative;
+    padding: 10px 0 6px 0;
+    line-height: 1.2;
+    
+}
+.ant-card {
+    padding-left: 22px;
+}
+
+.ant-card-meta-title{
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    font-size: 15px;
+    letter-spacing: .075em;
+    font-weight: 400;
+}
+.ant-card-meta-description {
+    letter-spacing: .075em;
+    line-height: 1.3;
+    color: #1c1d1d;
+    margin-top: 5px;
+    font-weight: 700;
+    font-size: 13px!important;
+}
+
+
+#shopify-section-2 {
+    display: flex;
+    height: auto;
+    position: relative;
+    /* left: 0;
+    top: 0;
+     */
+}
+
+/* 2 blocks */
+.square-collection {
+  
+    display: flex;
+    width: 100%;
+    flex-direction: column;
+    align-items: center;
+    height: 576px;
+    margin-top: 0px !important; 
+
+}
+
+.container-square {
+    width: 80%;
+    display: flex;
+    justify-content: space-between;
+}
+
+.block {
+    width: 49%;
+   
+}
+
+/* orange */
+.orange {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+}
+
+.orange div {
+    width: 99%;
+}
+
+.block-sale {
+    height: auto;
+}
+
+/* INSTAGRAM */
+.instagram {
+    margin-top: 20px;
+}
+
+.instagram-content {
+    overflow: hidden;
+    position: relative;
+   
+}
+
+.instagram-content ul {
+    display: flex;
+    height: 278px;
+    margin: 0!important;
+    padding: 0!important;
+    list-style: none!important;
+}
+
+/* .instagram-content ul {
+    display: flex;
+    height: 278px;
+    width: 16000%;
+    transition-duration: 0s;
+    transform: translate3d(0px, 0px, 0px);
+    margin: 0!important;
+  
+} */
+
+.instagram-content li {
+    height: calc(99vw / 5)!important;
+    width: calc(100vw / 5)!important;
+    float: left;
+    display: block;   
+    position: relative;
+
+}
+
+.item-backdrop {
+    transition: opacity 0.25s ease 0s;
+    opacity: 0;
+    background-color: rgba(0, 0, 0, 0.4);
+    position: absolute;
+    left: 0;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    cursor: pointer
+}
+
+.icon-instagram {
+    font-size: 25px;
+    color: #fff;
+    position: absolute;
+    top: calc(50% - 13.5px);
+    left: calc(50% - 17.5px);
+}
+
+.newsletter {
+    background-color: #000000;
+    color: #ffffff;
+    padding: 75px 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.newsletter-email {
+    border: 1px solid #fff;
+    border-radius: 0 0 0 0;
+    width: 60%
+}
+
+
+
+
+
