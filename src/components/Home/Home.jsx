@@ -1,13 +1,19 @@
-import React from "react";
+import React, { useEffect } from "react";
 import { Link } from "react-router-dom";
 import { Card } from "antd";
 import Header from "../Header/Header";
 import "./Home.css";
 import MyCarousel from "../UI/MyCarousel";
 import Footer from "../Footer/Footer";
-
+import "aos/dist/aos.css";
+import { AOS } from "aos";
 
 const Home = () => {
+//   useEffect(() => {
+//   AOS.init({
+//     duration : 2000
+//   });
+// }, [])
   return (
     <div className="main-content">
       {/* GIFT SHOP */}
@@ -106,9 +112,10 @@ const Home = () => {
       <div className="square-collection index-section">
         <div className="container-square">
           {/* 1st block */}
-          <div className="block">
+          <div  className="block">
             <a href="*">
               <img
+                // data-aos={{"zoom-in"}}
                 style={{ width: "100%" }}
                 src="https://cdn.shopify.com/s/files/1/0266/0731/files/desktop2AAA_720x.png?v=1638803857"
                 alt=""
